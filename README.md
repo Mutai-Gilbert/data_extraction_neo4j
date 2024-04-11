@@ -4,26 +4,25 @@ The script retrieves user activity data based on a specified date range. It then
 
 Requirements
 
-Python 3.x (https://www.python.org/downloads/)
-neo4j library (pip install neo4j)
-pandas library (pip install pandas)
-openpyxl library (pip install openpyxl)
-Installation
+- Python 3.x (https://www.python.org/downloads/)
+- neo4j library (pip install neo4j)
+- pandas library (pip install pandas)
+- openpyxl library (pip install openpyxl)
+
+## Installation
 
 Install the required libraries using pip:
 
-Bash
-pip install neo4j pandas openpyxl
-Use code with caution.
+```pip install neo4j pandas openpyxl```
 
- (Optional) Create a virtual environment to isolate project dependencies:
+Create a virtual environment to isolate project dependencies:
 
-Bash
+```
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate.bat
+source venv/bin/activate 
 pip install neo4j pandas openpyxl
-Use code with caution.
 
+```
 Configuration
 
 Update the following connection details in the script:
